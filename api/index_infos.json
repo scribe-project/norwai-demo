@@ -1,0 +1,1 @@
+{"index_key": "Flat", "index_param": "", "index_path": "knn.index", "size in bytes": 2030637, "avg_search_speed_ms": 0.048955356278276387, "99p_search_speed_ms": 0.06962375000185275, "reconstruction error %": 0.0, "nb vectors": 661, "vectors dimension": 768, "compression ratio": 0.9999778394661379}
