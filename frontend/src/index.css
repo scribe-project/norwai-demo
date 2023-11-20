@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background-color: #000;
+}
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.App-header {
+  color: white;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+
+  padding-bottom: 1em;
+  justify-content: center;
+}
+
+#header-left {
+  width: 75%;
+  padding: 5px;
+}
+
+#header-right {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  background: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #00aef3;
+  text-decoration: none;
+  padding-left: .5em;
+}
+
+hr {
+  width: 100%;
+  border: 2px solid white;
+}
+
+.video-container {
+  flex: 7; /* Allocate 70% of available space to the video container */
+  margin-right: 10px; /* Add some spacing between the video and search/history */
+  position: relative;
+  text-align: center;
+}
+
+video {
+  width: 75%;
+}
+
+button {
+  background: #777;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#video-and-sub {
+  text-align: center;
+}
+
+#subtitle {
+  /* width: 70%; */
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+  padding: 10px;
+  padding: 10px 70px;
+  margin-top: -10px;
+  /* text-align: center; */
+  font-size: 24px;
+  pointer-events: none; /* Disable pointer events for subtitles, as previously mentioned */
+}
+
+/* Styles for the search/history container (on the right) */
+.search-history-container {
+  flex: 3; /* Allocate 30% of available space to the search/history container */
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.search-history {
+  text-align: left;
+  margin: 2px;
+}
+/* special formatting for the <p> element in search-history */
+.search-history p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  cursor: pointer;
+  /* line at the bottom */
+
+}
+
+
+input, button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
